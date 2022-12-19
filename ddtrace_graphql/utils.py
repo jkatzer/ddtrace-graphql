@@ -4,7 +4,7 @@ import traceback
 from io import StringIO
 
 from graphql.error import GraphQLError, format_error
-from graphql.language.ast import Document
+from graphql.language.ast import DocumentNode
 
 
 def get_request_string(args, kwargs):
